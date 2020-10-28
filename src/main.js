@@ -35,7 +35,7 @@ try {
 }
 
 const webContext = WebKit2.WebContext.get_default()
-webContext.set_sandbox_enabled(true)
+webContext.set_sandbox_enabled(false)
 
 Gtk.Window.set_default_icon_name(pkg.name)
 
